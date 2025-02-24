@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Route, Routes, Navigate, useLocation } from "r
 import { Register } from "./components/Register";
 import { Login } from "./components/Login";
 import { Hrdashboard } from "./components/Hrdashboard";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 // Navbar Component (Only for selected pages)
 function Navbar() {
